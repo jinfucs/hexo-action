@@ -12,6 +12,9 @@ ssh-keyscan -t rsa github.com >> /root/.ssh/known_hosts
 git config --global user.name "$INPUT_USER_NAME"
 git config --global user.email "$INPUT_USER_EMAIL"
 
+# 
+npm config set user 0
+npm config set unsafe-perm true
 # install hexo env
 npm install hexo-cli -g
 npm install hexo-deployer-git --save
