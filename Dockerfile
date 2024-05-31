@@ -1,6 +1,6 @@
 FROM node:18-buster-slim
 
-LABEL version="1.0.6"
+LABEL version="1.0.8"
 LABEL repository="https://github.com/jinfucs/hexo-action"
 LABEL homepage="jinfucs.com"
 LABEL maintainer="金孚财税 <i_jinfucs@outlook.com>"
